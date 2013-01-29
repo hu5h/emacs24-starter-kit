@@ -76,7 +76,7 @@ Usage is as simple as
 
 2. load g-client
    #+begin_src emacs-lisp
-     (load-library "g")
+     (load-library "g-client")
    #+end_src
 
 3. sign into google documents with =M-x gdocs-sign-in=

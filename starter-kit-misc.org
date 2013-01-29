@@ -121,7 +121,7 @@ possible fix.
 **** Emacs set path to aspell
 it's possible aspell isn't in your path
 #+begin_src emacs-lisp :tangle no
-   (setq exec-path (append exec-path '("/opt/local/bin")))
+   (setq exec-path (append exec-path '("/usr/bin/aspell")))
 #+end_src
 
 **** Emacs specify spelling program
@@ -138,7 +138,7 @@ it's possible aspell isn't in your path
           `((nil ,@default)
             ("english" ,@default))))
 #+end_src
-
+     
 ** Hippie expand: at times perhaps too hip
 #+begin_src emacs-lisp
   (when (boundp 'hippie-expand-try-functions-list)
